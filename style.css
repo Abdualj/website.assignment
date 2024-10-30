@@ -1,0 +1,52 @@
+nav {
+    background: linear-gradient(to bottom, #4d4d4d, #b3b3b3);
+    color: #4d4d4d;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    font-size: larger;
+    position: fixed;
+    width: 100%; /* Ensure the nav spans the full width */
+}
+
+/* Space for Fixed Navbar */
+section {
+    padding-top: 4rem; /* Adjust this to the height of your navbar */
+    margin-top: 2rem;
+}
+
+
+.site logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+/* Adjust main content placement below the navbar */
+.main-content {
+    margin-top: 4rem; /* Adjust this to match your navbar height */
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end; /* Aligns items to the right */
+    font-size: larger;
+    color: #cccccc;          /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-left: 1rem;       /* Space between items */
+}
+
+li a {
+    border: solid;
+    border-radius: 12px;
+    width: 6rem;
+    height: 4rem;
+    display: block;
+    text-align: center;
+    line-height: 4rem;
+    text-decoration: none;
+    color: inherit;          /* Inherit text color from ul */
+}

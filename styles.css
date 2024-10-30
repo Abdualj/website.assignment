@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial, sans-serif";
+    line-height: 1.6;
+
+
+}
+/* Navigation Bar */
+nav {
+    background: linear-gradient(to bottom, #4d4d4d, #b3b3b3);
+    color: #b3b3b3;
+    padding: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: larger;
+    position: fixed;
+    width: 100%; /* Ensure the nav spans the full width */
+}
+
+/* Space for Fixed Navbar */
+section {
+    padding-top: 4rem; /* Adjust this to the height of your navbar */
+    margin-top: 2rem;
+}
+
+
+.site-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+/* Adjust main content placement below the navbar */
+.main-content {
+    margin-top: 4rem; /* Adjust this to match your navbar height */
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end; /* Aligns items to the right */
+    font-size: larger;
+    color: #cccccc;          /* Text color */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-left: 1rem;       /* Space between items */
+}
+
+li a {
+    border: solid;
+    border-radius: 12px;
+    width: 6rem;
+    height: 4rem;
+    display: block;
+    text-align: center;
+    line-height: 4rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Hover Effect */
+li a:hover {
+    background-color: #b3b3b3;
+    color: #fff;
+}
+
+
+
+header {
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 20rem;
+     background: linear-gradient(to bottom, #4a90e2, #4d4d4d);
+    color: #cccccc;
+}
+.image-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #b3b3b3;
+}
+
+main {
+    padding: 2rem;
+    height: 1500px;
+    background: linear-gradient(to bottom, #4d4d4d, #4a90e2);
+    color: #b3b3b3;
+}
+
+section {
+    margin-bottom: 2rem;
+    color: #b3b3b3;
+}
+
+#intro {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #cccccc;
+}
+.products-container {
+    display: flex;
+    justify-content: space-around; /* Adds space between cards */
+    align-items: stretch;
+    flex-wrap: wrap; /* Allows wrapping if screen is too small */
+    width: 100%; /* Ensures the container takes full width */
+    padding: 2rem;
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
+}
+
+.product-card {
+    flex: 1 1 18rem; /* Allows cards to grow/shrink but keeps min width */
+    max-width: 20%; /* Limit width to avoid cards being too large */
+    height: 24rem;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #b3b3b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 1rem;
+    color: #4d4d4d;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    .product-card {
+        flex: 1 1 100%; /* Full width for small screens */
+        max-width: 100%;
+    }
+}
+
+
+footer {
+     background: linear-gradient(to top, #4d4d4d, #b3b3b3);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 0rem;
+}
+
+footer address {
+    font-style: normal;
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+
+footer nav a {
+    color: #b3b3b3;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
